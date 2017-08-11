@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.Web", "RedBox.Web\RedBox.Web.csproj", "{B0814E8D-F215-4D67-B3AF-20FA1578ACAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.BLL", "RedBox.BLL\RedBox.BLL.csproj", "{488E9E9D-0F33-4B61-B5DD-74B0AAFBE091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.Common", "RedBox.Common\RedBox.Common.csproj", "{157584BE-7D22-488A-A186-3E124DF4FD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.DAL", "RedBox.DAL\RedBox.DAL.csproj", "{E793DFFB-1596-4CA4-A04E-5864D2CA5584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.IBLL", "RedBox.IBLL\RedBox.IBLL.csproj", "{B2B32928-C202-4326-A869-EA4B3BBFBCD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.IDAL", "RedBox.IDAL\RedBox.IDAL.csproj", "{6D59A794-F0CC-49DF-A1DB-D94D73F98E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.Models", "RedBox.Models\RedBox.Models.csproj", "{7B1FF1AC-B731-4F5F-9420-B100F81A6C15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0814E8D-F215-4D67-B3AF-20FA1578ACAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0814E8D-F215-4D67-B3AF-20FA1578ACAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0814E8D-F215-4D67-B3AF-20FA1578ACAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0814E8D-F215-4D67-B3AF-20FA1578ACAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488E9E9D-0F33-4B61-B5DD-74B0AAFBE091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488E9E9D-0F33-4B61-B5DD-74B0AAFBE091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488E9E9D-0F33-4B61-B5DD-74B0AAFBE091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488E9E9D-0F33-4B61-B5DD-74B0AAFBE091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157584BE-7D22-488A-A186-3E124DF4FD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157584BE-7D22-488A-A186-3E124DF4FD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157584BE-7D22-488A-A186-3E124DF4FD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157584BE-7D22-488A-A186-3E124DF4FD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E793DFFB-1596-4CA4-A04E-5864D2CA5584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E793DFFB-1596-4CA4-A04E-5864D2CA5584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E793DFFB-1596-4CA4-A04E-5864D2CA5584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E793DFFB-1596-4CA4-A04E-5864D2CA5584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B32928-C202-4326-A869-EA4B3BBFBCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B32928-C202-4326-A869-EA4B3BBFBCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B32928-C202-4326-A869-EA4B3BBFBCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B32928-C202-4326-A869-EA4B3BBFBCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D59A794-F0CC-49DF-A1DB-D94D73F98E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D59A794-F0CC-49DF-A1DB-D94D73F98E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D59A794-F0CC-49DF-A1DB-D94D73F98E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D59A794-F0CC-49DF-A1DB-D94D73F98E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1FF1AC-B731-4F5F-9420-B100F81A6C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1FF1AC-B731-4F5F-9420-B100F81A6C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1FF1AC-B731-4F5F-9420-B100F81A6C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1FF1AC-B731-4F5F-9420-B100F81A6C15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
