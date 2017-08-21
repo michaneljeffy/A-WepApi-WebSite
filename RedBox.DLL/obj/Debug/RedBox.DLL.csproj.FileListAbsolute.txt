@@ -1,0 +1,15 @@
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.DLL.dll.config
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.DLL.dll
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.DLL.pdb
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\EntityFramework.dll
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.IDAL.dll
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.Models.dll
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.IDAL.pdb
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.Models.pdb
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\RedBox.Models.dll.config
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\EntityFramework.xml
+D:\MVC Project\RedBox\RedBox.DLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC Project\RedBox\RedBox.DLL\obj\Debug\RedBox.DLL.csprojResolveAssemblyReference.cache
+D:\MVC Project\RedBox\RedBox.DLL\obj\Debug\RedBox.DLL.dll
+D:\MVC Project\RedBox\RedBox.DLL\obj\Debug\RedBox.DLL.pdb

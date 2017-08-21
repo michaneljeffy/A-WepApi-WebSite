@@ -11,12 +11,13 @@ namespace RedBox.DLL
     public class RedBoxDbContext:DbContext
     {
         public DbSet<User> Users { get; set; }
-
+        
         public DbSet<UserGroup> UserGroups { get; set; }
         public DbSet<UserConfig> UserConfig { get; set; }
         public RedBoxDbContext()
             : base("DefaultConnection")
         {
+            Database.CreateIfNotExists();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using RedBox.IDAL;
+using RedBox.Models.RedBox;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
@@ -7,7 +8,7 @@ namespace RedBox.DLL
 {
     public class BaseRepository<T>:InterfaceBaseRepository<T> where T:class
     {
-        protected RedBoxDbContext nContext = ContextFactory.GetCurrentContext();
+        protected RedBoxModel nContext = ContextFactory.GetCurrentContext();
 
         public T Add(T entity)
         {

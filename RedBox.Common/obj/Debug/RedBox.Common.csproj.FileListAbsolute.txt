@@ -1,0 +1,5 @@
+D:\MVC Project\RedBox\RedBox.Common\bin\Debug\RedBox.Common.dll
+D:\MVC Project\RedBox\RedBox.Common\bin\Debug\RedBox.Common.pdb
+D:\MVC Project\RedBox\RedBox.Common\obj\Debug\RedBox.Common.csprojResolveAssemblyReference.cache
+D:\MVC Project\RedBox\RedBox.Common\obj\Debug\RedBox.Common.dll
+D:\MVC Project\RedBox\RedBox.Common\obj\Debug\RedBox.Common.pdb

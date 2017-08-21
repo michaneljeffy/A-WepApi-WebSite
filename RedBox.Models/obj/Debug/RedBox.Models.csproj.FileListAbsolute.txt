@@ -1,0 +1,14 @@
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\RedBox.Models.dll.config
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\RedBox.Models.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\RedBox.Models.pdb
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\EntityFramework.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\EntityFramework.xml
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC Project\RedBox\RedBox.Models\obj\Debug\RedBox.Models.dll
+D:\MVC Project\RedBox\RedBox.Models\obj\Debug\RedBox.Models.pdb
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\MySql.Data.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MVC Project\RedBox\RedBox.Models\obj\Debug\RedBox.Models.csprojResolveAssemblyReference.cache

@@ -47,10 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseRepository.cs" />
+    <Compile Include="ContextFactory.cs" />
     <Compile Include="RedBoxDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryFactory.cs" />
+    <Compile Include="Repository\AgentRepository.cs" />
+    <Compile Include="Repository\RedBoxRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RedBox.IDAL\RedBox.IDAL.csproj">
+      <Project>{11009b05-6d23-4a95-824f-24b215904f87}</Project>
+      <Name>RedBox.IDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RedBox.Models\RedBox.Models.csproj">
       <Project>{712db296-56da-4f79-84c1-29f5dae9d0f2}</Project>
       <Name>RedBox.Models</Name>

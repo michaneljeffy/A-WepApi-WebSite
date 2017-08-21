@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>dd5a49a0-54d8-423e-b7d0-af05eb55da05</ProjectGuid>
+    <ProjectGuid>{DD5A49A0-54D8-423E-B7D0-AF05EB55DA05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RedBox.BLL</RootNamespace>
@@ -30,24 +30,40 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AgentService.cs" />
+    <Compile Include="Services\RedBoxService.cs" />
+    <Compile Include="Services\ShowsService.cs" />
+    <Compile Include="Services\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RedBox.DLL\RedBox.DLL.csproj">
+      <Project>{fcbce9bc-e9a8-42a5-95ea-c330326460ca}</Project>
+      <Name>RedBox.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RedBox.IBLL\RedBox.IBLL.csproj">
+      <Project>{6cecf44b-6f43-4d0c-8557-55cf90eabaad}</Project>
+      <Name>RedBox.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RedBox.IDAL\RedBox.IDAL.csproj">
+      <Project>{11009b05-6d23-4a95-824f-24b215904f87}</Project>
+      <Name>RedBox.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RedBox.Models\RedBox.Models.csproj">
+      <Project>{712db296-56da-4f79-84c1-29f5dae9d0f2}</Project>
+      <Name>RedBox.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>

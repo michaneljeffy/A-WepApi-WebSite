@@ -1,4 +1,6 @@
 ﻿using System.Runtime.Remoting.Messaging;
+using RedBox.Models;
+using RedBox.Models.RedBox;
 
 namespace RedBox.DLL
 {
@@ -8,13 +10,13 @@ namespace RedBox.DLL
         /// 获取当前数据上下文
         /// </summary>
         /// <returns></returns>
-        public static RedBoxDbContext  GetCurrentContext()
+        public static RedBoxModel GetCurrentContext()
         {
-            RedBoxDbContext _nContext = CallContext.GetData("RedBoxDbContext") as RedBoxDbContext;
+            RedBoxModel _nContext = CallContext.GetData("RedBox") as RedBoxModel;
             if (_nContext == null)
             {
-                _nContext = new RedBoxDbContext();
-                CallContext.SetData("NineskyContext", _nContext);
+                _nContext = new RedBoxModel();
+                CallContext.SetData("RedBox", _nContext);
             }
             return _nContext;
         }

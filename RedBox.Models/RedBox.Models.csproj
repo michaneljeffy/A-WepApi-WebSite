@@ -31,14 +31,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,12 +57,142 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RedBox\activity.cs" />
+    <Compile Include="RedBox\activity_privilege.cs" />
+    <Compile Include="RedBox\address.cs" />
+    <Compile Include="RedBox\advertise.cs" />
+    <Compile Include="RedBox\advertise_adv.cs" />
+    <Compile Include="RedBox\advertise_redbox.cs" />
+    <Compile Include="RedBox\agent_daily.cs" />
+    <Compile Include="RedBox\agent_daily_detail.cs" />
+    <Compile Include="RedBox\area.cs" />
+    <Compile Include="RedBox\article_coupon.cs" />
+    <Compile Include="RedBox\article_official.cs" />
+    <Compile Include="RedBox\article_print.cs" />
+    <Compile Include="RedBox\article_print_statistic.cs" />
+    <Compile Include="RedBox\article_record.cs" />
+    <Compile Include="RedBox\audit.cs" />
+    <Compile Include="RedBox\audit_facade.cs" />
+    <Compile Include="RedBox\balance.cs" />
+    <Compile Include="RedBox\bill.cs" />
+    <Compile Include="RedBox\channel.cs" />
+    <Compile Include="RedBox\channel_account_number_seed.cs" />
+    <Compile Include="RedBox\channel_business_info.cs" />
+    <Compile Include="RedBox\channel_feedback.cs" />
+    <Compile Include="RedBox\channel_machine.cs" />
+    <Compile Include="RedBox\conf_bh_sn.cs" />
+    <Compile Include="RedBox\coupon.cs" />
+    <Compile Include="RedBox\data_agent.cs" />
+    <Compile Include="RedBox\data_agent_old.cs" />
+    <Compile Include="RedBox\data_agent_old_copy.cs" />
+    <Compile Include="RedBox\data_agent_pay.cs" />
+    <Compile Include="RedBox\data_agent_promo.cs" />
+    <Compile Include="RedBox\data_coinprint.cs" />
+    <Compile Include="RedBox\data_gucci.cs" />
+    <Compile Include="RedBox\data_laneige.cs" />
+    <Compile Include="RedBox\data_laneige_statistic.cs" />
+    <Compile Include="RedBox\data_official.cs" />
+    <Compile Include="RedBox\data_official_account.cs" />
+    <Compile Include="RedBox\data_official_copy.cs" />
+    <Compile Include="RedBox\data_official_old.cs" />
+    <Compile Include="RedBox\data_official_old_copy.cs" />
+    <Compile Include="RedBox\data_promo.cs" />
+    <Compile Include="RedBox\data_promo_statistic.cs" />
+    <Compile Include="RedBox\data_quanmin.cs" />
+    <Compile Include="RedBox\data_total.cs" />
+    <Compile Include="RedBox\data_warning.cs" />
+    <Compile Include="RedBox\failed_jobs.cs" />
+    <Compile Include="RedBox\game.cs" />
+    <Compile Include="RedBox\game_520.cs" />
+    <Compile Include="RedBox\game_520_player.cs" />
+    <Compile Include="RedBox\game_customer_service.cs" />
+    <Compile Include="RedBox\game_player.cs" />
+    <Compile Include="RedBox\jackpot.cs" />
+    <Compile Include="RedBox\job_log.cs" />
+    <Compile Include="RedBox\live.cs" />
+    <Compile Include="RedBox\live_redbox.cs" />
+    <Compile Include="RedBox\logger.cs" />
+    <Compile Include="RedBox\lottery_prize.cs" />
+    <Compile Include="RedBox\lottery_prize_entity.cs" />
+    <Compile Include="RedBox\machine_check_out_factory.cs" />
+    <Compile Include="RedBox\machine_check_to_place.cs" />
+    <Compile Include="RedBox\message.cs" />
+    <Compile Include="RedBox\migrations.cs" />
+    <Compile Include="RedBox\RedBoxModel.cs" />
+    <Compile Include="RedBox\official_account.cs" />
+    <Compile Include="RedBox\official_account_person.cs" />
+    <Compile Include="RedBox\official_online_log.cs" />
+    <Compile Include="RedBox\operate_log.cs" />
+    <Compile Include="RedBox\order.cs" />
+    <Compile Include="RedBox\participator_draw.cs" />
+    <Compile Include="RedBox\password_resets.cs" />
+    <Compile Include="RedBox\payment_print_info.cs" />
+    <Compile Include="RedBox\payment_print_refund.cs" />
+    <Compile Include="RedBox\person_log.cs" />
+    <Compile Include="RedBox\person_user.cs" />
+    <Compile Include="RedBox\platform_operation_log.cs" />
+    <Compile Include="RedBox\preference_printer.cs" />
+    <Compile Include="RedBox\printer_channel.cs" />
+    <Compile Include="RedBox\printer_operation.cs" />
+    <Compile Include="RedBox\printer_warning.cs" />
+    <Compile Include="RedBox\print_coupon.cs" />
+    <Compile Include="RedBox\print_img_log.cs" />
+    <Compile Include="RedBox\print_log.cs" />
+    <Compile Include="RedBox\promo_loreal.cs" />
+    <Compile Include="RedBox\qa.cs" />
+    <Compile Include="RedBox\qa_tags.cs" />
+    <Compile Include="RedBox\qmyx_device.cs" />
+    <Compile Include="RedBox\redbox.cs" />
+    <Compile Include="RedBox\redbox_action.cs" />
+    <Compile Include="RedBox\redbox_coin.cs" />
+    <Compile Include="RedBox\redbox_flowmeter.cs" />
+    <Compile Include="RedBox\redbox_grade.cs" />
+    <Compile Include="RedBox\redbox_liveness.cs" />
+    <Compile Include="RedBox\redbox_log.cs" />
+    <Compile Include="RedBox\redbox_log_status.cs" />
+    <Compile Include="RedBox\redbox_machine_meta.cs" />
+    <Compile Include="RedBox\redbox_monitor_net.cs" />
+    <Compile Include="RedBox\redbox_onlinable_meta.cs" />
+    <Compile Include="RedBox\redbox_pv.cs" />
+    <Compile Include="RedBox\redbox_shows.cs" />
+    <Compile Include="RedBox\redbox_tags.cs" />
+    <Compile Include="RedBox\redbox_update.cs" />
+    <Compile Include="RedBox\setting.cs" />
+    <Compile Include="RedBox\shows.cs" />
+    <Compile Include="RedBox\shows_online_log.cs" />
+    <Compile Include="RedBox\statistic_printer.cs" />
+    <Compile Include="RedBox\subject.cs" />
+    <Compile Include="RedBox\subject_coupon.cs" />
+    <Compile Include="RedBox\ticket.cs" />
+    <Compile Include="RedBox\ticket_comment.cs" />
+    <Compile Include="RedBox\trophy.cs" />
+    <Compile Include="RedBox\updates.cs" />
+    <Compile Include="RedBox\users.cs" />
+    <Compile Include="RedBox\users_money_log.cs" />
+    <Compile Include="RedBox\users_order.cs" />
+    <Compile Include="RedBox\user_charge_order.cs" />
+    <Compile Include="RedBox\user_feedback.cs" />
+    <Compile Include="RedBox\user_image.cs" />
+    <Compile Include="RedBox\user_notification.cs" />
+    <Compile Include="RedBox\vb_redbox_shows.cs" />
+    <Compile Include="RedBox\xmas_assist.cs" />
+    <Compile Include="RedBox\xmas_prize.cs" />
+    <Compile Include="RedBox\xmas_prize_entity.cs" />
+    <Compile Include="RedBox\xmas_prize_log.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserConfig.cs" />
+    <Compile Include="UserGroup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,5 +13,9 @@ namespace RedBox.DLL
         /// 用户仓储
         /// </summary>
         public static InterfaceUserRepository UserRepository { get { return new UserRepository(); } }
+
+        public static InterfaceRedBoxRepository RedBoxRepository { get { return new RedBoxRepository(); } }
+
+        public static InterfaceAgentRepository AgentRepository { get { return new AgentRepository(); } }
     }
 }

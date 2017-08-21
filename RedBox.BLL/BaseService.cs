@@ -8,28 +8,35 @@ using RedBox.IDAL;
 
 namespace RedBox.BLL
 {
-    public abstract class BaseService<T> : InterfaceBaseService<T> where T:class
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public abstract class BaseService<T> : InterfaceBaseService<T> where T : class
     {
-        protected InterfaceBaseRepository<T> CurrentRepository { get; set; }
+        //protected InterfaceBaseRepository<T> CurrentRepository { get; set; }
 
-        public BaseService(InterfaceBaseRepository<T> currentRepository)
-        {
-            CurrentRepository = currentRepository;
-        }
+        //public BaseService(InterfaceBaseRepository<T> currentRepository)
+        //{
+        //    CurrentRepository = currentRepository;
+        //}
 
-        public T Add(T entity)
-        {
-            return CurrentRepository.Add(entity);
-        }
+        //public T Add(T entity)
+        //{
+        //    return CurrentRepository.Add(entity);
+        //}
 
-        public bool Delete(T entity)
-        {
-            return CurrentRepository.Delete(entity);
-        }
+        //public bool Delete(T entity)
+        //{
+        //    return CurrentRepository.Delete(entity);
+        //}
 
-        public bool Update(T entity)
-        {
-            return CurrentRepository.Update(entity);
-        }
+        //public bool Update(T entity)
+        //{
+        //    return CurrentRepository.Update(entity);
+        //}
+        public abstract T Add(T entity);
+        public abstract bool Delete(T entity);
+        public abstract bool Update(T entity);
     }
 }
