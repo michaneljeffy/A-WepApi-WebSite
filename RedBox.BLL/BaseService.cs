@@ -8,10 +8,6 @@ using RedBox.IDAL;
 
 namespace RedBox.BLL
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
     public abstract class BaseService<T> : InterfaceBaseService<T> where T : class
     {
         //protected InterfaceBaseRepository<T> CurrentRepository { get; set; }

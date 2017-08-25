@@ -13,11 +13,11 @@ namespace RedBox.BLL
 {
     public class AgentService:BaseService<channel>,InterfaceAgentService
     {
-        protected InterfaceAgentRepository CurrentRepository { get { return RepositoryFactory.AgentRepository; } }
+        protected InterfaceAgentRepository CurrentRepository;
 
         public AgentService()
         {
-
+            CurrentRepository = RepositoryFactory.AgentRepository;
         }
         
         protected RedBoxService redBoxService { get; set; }
@@ -80,6 +80,16 @@ namespace RedBox.BLL
         private dynamic LoginWithAgent(channel agent)
         {
             return agent;
+        }
+
+        public dynamic GetDataWarning(channel agent,dynamic paras)
+        {
+            if(paras["start_time"]==null||paras["end_time"]==null)
+            {
+                return "";
+            }
+
+            return "";
         }
 
 

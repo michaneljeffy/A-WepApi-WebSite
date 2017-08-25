@@ -43,7 +43,7 @@ namespace RedBox.BLL
             switch (order)
             {
                 case 0: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => true, true, u => u.id );
-                case 1: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => true, false, u => u.code );
+                case 1: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => !string.IsNullOrWhiteSpace (u.code), false, u => u.code );
                 case 2: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => true, true, u => u.created_at );
                 case 3: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => true, false, u => u.cid );
                 case 4: return CurrentRepository.FindPageList(pageIndex, pageSize, out totalRecord, u => true, true, u => u.city );

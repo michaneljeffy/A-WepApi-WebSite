@@ -43,6 +43,7 @@
     <Compile Include="InterfaceBaseService.cs" />
     <Compile Include="IServices\InterfaceAgentService.cs" />
     <Compile Include="IServices\InterfaceUserService.cs" />
+    <Compile Include="IServices\IRedBoxInfoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IServices\InterfaceRedBoxService.cs" />
   </ItemGroup>

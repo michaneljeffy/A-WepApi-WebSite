@@ -14,10 +14,12 @@ namespace RedBox.Web.Controllers
     public class MachinesController : ApiController
     {
         protected InterfaceRedBoxService MachineService;
+        protected IRedBoxInfoService MachineInfoService;
 
-        public MachinesController(InterfaceRedBoxService _redboxService)
+        public MachinesController(InterfaceRedBoxService _redboxService, IRedBoxInfoService _machineInfoService)
         {
             MachineService = _redboxService;
+            MachineInfoService = _machineInfoService;
         }
 
         //get api/machines
@@ -45,18 +47,19 @@ namespace RedBox.Web.Controllers
 
         }
 
-        //public IHttpActionResult Get(string code)
-        //{
-        //    redbox Machine = MachineService.Find(code);
+        [HttpGet]
+        public IHttpActionResult GetStatics()
+        {
+            dynamic  MachineInfo = MachineInfoService.GetSummaryInfo();
 
-        //    if (Machine == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    else
-        //    {
-        //        return Ok(Machine);
-        //    }
-        //}
+            if (MachineInfo == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(MachineInfo);
+            }
+        }
     }
 }

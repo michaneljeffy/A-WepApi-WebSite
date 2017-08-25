@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.IDAL", "RedBox.IDAL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBox.Models", "RedBox.Models\RedBox.Models.csproj", "{712DB296-56DA-4F79-84C1-29F5DAE9D0F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VUE-FrontEnd", "VUE-FrontEnd\VUE-FrontEnd.csproj", "{00C4B353-6D07-489A-BB68-83A116998E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{712DB296-56DA-4F79-84C1-29F5DAE9D0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{712DB296-56DA-4F79-84C1-29F5DAE9D0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{712DB296-56DA-4F79-84C1-29F5DAE9D0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C4B353-6D07-489A-BB68-83A116998E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C4B353-6D07-489A-BB68-83A116998E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C4B353-6D07-489A-BB68-83A116998E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C4B353-6D07-489A-BB68-83A116998E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

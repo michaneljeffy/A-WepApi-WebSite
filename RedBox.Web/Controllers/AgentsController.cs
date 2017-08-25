@@ -35,9 +35,9 @@ namespace RedBox.Web.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string username, [FromBody]string password)
+        public dynamic Post([FromUri]string username, [FromUri]string password)
         {
-             AgentServices.Login(username, password);
+             return AgentServices.Login(username, password);
         }
 
         // PUT api/<controller>/5

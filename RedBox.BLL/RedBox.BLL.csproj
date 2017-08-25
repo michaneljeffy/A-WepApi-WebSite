@@ -43,8 +43,10 @@
     <Compile Include="BaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AgentService.cs" />
+    <Compile Include="Services\RedBoxInfoService.cs" />
     <Compile Include="Services\RedBoxService.cs" />
     <Compile Include="Services\ShowsService.cs" />
+    <Compile Include="Services\StaticServices.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
