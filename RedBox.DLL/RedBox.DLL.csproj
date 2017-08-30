@@ -54,6 +54,7 @@
     <Compile Include="RepositoryFactory.cs" />
     <Compile Include="Repository\AgentRepository.cs" />
     <Compile Include="Repository\RedBoxRepository.cs" />
+    <Compile Include="Repository\RedBoxShowRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>

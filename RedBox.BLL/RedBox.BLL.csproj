@@ -11,6 +11,7 @@
     <AssemblyName>RedBox.BLL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,7 +46,7 @@
     <Compile Include="Services\AgentService.cs" />
     <Compile Include="Services\RedBoxInfoService.cs" />
     <Compile Include="Services\RedBoxService.cs" />
-    <Compile Include="Services\ShowsService.cs" />
+    <Compile Include="Services\RedBoxShowsService.cs" />
     <Compile Include="Services\StaticServices.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>

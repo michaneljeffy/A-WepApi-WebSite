@@ -44,6 +44,7 @@
     <Compile Include="IRepository\InterfaceAgentRepository.cs" />
     <Compile Include="IRepository\InterfaceRedBoxRepository.cs" />
     <Compile Include="IRepository\InterfaceUserRepository.cs" />
+    <Compile Include="IRepository\IRedBoxShowRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

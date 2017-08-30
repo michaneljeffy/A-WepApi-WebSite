@@ -196,6 +196,7 @@
     <Compile Include="Controllers\MachinesController.cs" />
     <Compile Include="Controllers\Product.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\RedBoxShowsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

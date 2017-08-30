@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RabbitMQ;
 
-namespace RedBox.Common
+namespace RedBox.Common.MQ
 {
-    public class Class1
+    public interface IQueueManager
     {
+
     }
 }

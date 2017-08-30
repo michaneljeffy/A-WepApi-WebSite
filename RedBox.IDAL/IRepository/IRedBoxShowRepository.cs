@@ -7,8 +7,8 @@ using RedBox.Models.RedBox;
 
 namespace RedBox.IDAL
 {
-    public interface IRedBoxShowRepository:InterfaceBaseRepository<redbox_shows>
+    public interface IRedBoxShowRepository:InterfaceBaseRepository<vb_redbox_shows>
     {
-        dynamic GetRedBoxShow(redbox entity);
+        dynamic GetRedBoxShow(string code);
     }
 }

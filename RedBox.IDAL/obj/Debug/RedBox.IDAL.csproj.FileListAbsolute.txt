@@ -2,10 +2,10 @@ D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.IDAL.dll
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.IDAL.pdb
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.Models.dll
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.Models.pdb
-D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.Models.dll.config
 D:\MVC Project\RedBox\RedBox.IDAL\obj\Debug\RedBox.IDAL.csprojResolveAssemblyReference.cache
 D:\MVC Project\RedBox\RedBox.IDAL\obj\Debug\RedBox.IDAL.dll
 D:\MVC Project\RedBox\RedBox.IDAL\obj\Debug\RedBox.IDAL.pdb
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\EntityFramework.dll
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\EntityFramework.xml
 D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\MVC Project\RedBox\RedBox.IDAL\bin\Debug\RedBox.Models.dll.config

@@ -90,10 +90,8 @@ D:\MVC Project\RedBox\RedBox.Web\bin\EntityFramework.dll
 D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.BLL.pdb
 D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.IBLL.pdb
 D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.Models.pdb
-D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.Models.dll.config
 D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.IDAL.pdb
 D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.DLL.pdb
-D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.DLL.dll.config
 D:\MVC Project\RedBox\RedBox.Web\bin\EntityFramework.xml
 D:\MVC Project\RedBox\RedBox.Web\bin\Autofac.dll
 D:\MVC Project\RedBox\RedBox.Web\bin\Autofac.Integration.WebApi.dll
@@ -105,3 +103,5 @@ D:\MVC Project\RedBox\RedBox.Web\bin\zh-Hans\EntityFramework.resources.dll
 D:\MVC Project\RedBox\RedBox.Web\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
 D:\MVC Project\RedBox\RedBox.Web\bin\Autofac.Integration.Mvc.dll
 D:\MVC Project\RedBox\RedBox.Web\bin\Autofac.Integration.Mvc.xml
+D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.DLL.dll.config
+D:\MVC Project\RedBox\RedBox.Web\bin\RedBox.Models.dll.config
