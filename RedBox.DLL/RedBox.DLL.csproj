@@ -52,10 +52,14 @@
     <Compile Include="RedBoxDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryFactory.cs" />
-    <Compile Include="Repository\AgentRepository.cs" />
-    <Compile Include="Repository\RedBoxRepository.cs" />
-    <Compile Include="Repository\RedBoxShowRepository.cs" />
-    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Repository\OfficialAccountRepository\AccountMachineRepository.cs" />
+    <Compile Include="Repository\UserRepository\AgentRepository.cs" />
+    <Compile Include="Repository\CompRepository\CityRepository.cs" />
+    <Compile Include="Repository\OfficialAccountRepository\OfficialAccountRepository.cs" />
+    <Compile Include="Repository\MchinesRepository\RedBoxRepository.cs" />
+    <Compile Include="Repository\ShowRepository\RedBoxShowRepository.cs" />
+    <Compile Include="Repository\ShowRepository\ShowsRepository.cs" />
+    <Compile Include="Repository\UserRepository\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RedBox.IDAL\RedBox.IDAL.csproj">

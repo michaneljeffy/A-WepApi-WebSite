@@ -30,7 +30,7 @@ namespace RedBox.Common.Cache
 
         private ConnectionMultiplexer GetRedisConnection()
         {
-            if (this.redisConnection != null & this.redisConnection.IsConnected )
+            if (this.redisConnection != null  )
             {
                 return this.redisConnection;
             }
@@ -62,7 +62,8 @@ namespace RedBox.Common.Cache
 
         public bool Contains(string key)
         {
-            return redisConnection.GetDatabase().KeyExists(key);
+           return  redisConnection.GetDatabase().KeyExists(key);
+            
         }
 
         public T Get<T>(string key)

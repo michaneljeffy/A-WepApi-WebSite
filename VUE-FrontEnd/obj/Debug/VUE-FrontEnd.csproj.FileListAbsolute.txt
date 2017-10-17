@@ -29,6 +29,6 @@ D:\MVC Project\RedBox\VUE-FrontEnd\bin\VUE-FrontEnd.dll
 D:\MVC Project\RedBox\VUE-FrontEnd\bin\VUE-FrontEnd.pdb
 D:\MVC Project\RedBox\VUE-FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\MVC Project\RedBox\VUE-FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\MVC Project\RedBox\VUE-FrontEnd\obj\Debug\VUE-FrontEnd.csprojResolveAssemblyReference.cache
 D:\MVC Project\RedBox\VUE-FrontEnd\obj\Debug\VUE-FrontEnd.dll
 D:\MVC Project\RedBox\VUE-FrontEnd\obj\Debug\VUE-FrontEnd.pdb
+D:\MVC Project\RedBox\VUE-FrontEnd\obj\Debug\VUE-FrontEnd.csprojResolveAssemblyReference.cache

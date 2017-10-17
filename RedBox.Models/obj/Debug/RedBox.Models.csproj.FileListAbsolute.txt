@@ -11,4 +11,15 @@ D:\MVC Project\RedBox\RedBox.Models\bin\Debug\MySql.Data.dll
 D:\MVC Project\RedBox\RedBox.Models\bin\Debug\MySql.Data.Entity.EF6.dll
 D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\Newtonsoft.Json.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Net.Http.Formatting.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Cors.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Http.Cors.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Http.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\Newtonsoft.Json.xml
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Net.Http.Formatting.xml
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Http.xml
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Http.Cors.xml
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\System.Web.Http.resources.dll
 D:\MVC Project\RedBox\RedBox.Models\obj\Debug\RedBox.Models.csprojResolveAssemblyReference.cache

@@ -8,10 +8,11 @@ namespace RedBox.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(string UserName,string Ticket)
         {
             ViewBag.Title = "Home Page";
-
+            ViewBag.UserName = UserName;
+            ViewBag.Ticket = Ticket;
             return View();
         }
     }

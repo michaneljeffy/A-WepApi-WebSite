@@ -19,5 +19,13 @@ namespace RedBox.DLL
         public static InterfaceAgentRepository AgentRepository { get { return new AgentRepository(); } }
 
         public static IRedBoxShowRepository BoxShowsRepository { get { return new RedBoxShowRepository(); } }
+
+        public static IShowsRepository ShowsRepository { get { return new ShowsRepository(); } }
+
+        public static IOfficialAccountRepository OfficialAccountRepository { get { return new OfficialAccountRepository(); } }
+
+        public static ICityRepository CityRepository { get { return new CityRepository(); } }
+
+        public static IAccountMachineRepository AccountMachineRepository { get { return new AccountMachineRepository(); } }
     }
 }

@@ -16,8 +16,8 @@ namespace RedBox.Web
             GlobalConfiguration.Configuration.Formatters.JsonFormatter.MediaTypeMappings.Add(
                 new QueryStringMapping("datatype", "json", "application/json"));
             //返回格式选择 datatype 可以替换为任何参数   
-            GlobalConfiguration.Configuration.Formatters.XmlFormatter.MediaTypeMappings.Add(
-                new QueryStringMapping("datatype", "xml", "application/xml"));
+          //  GlobalConfiguration.Configuration.Formatters.XmlFormatter.MediaTypeMappings.Add(
+               // new QueryStringMapping("datatype", "xml", "application/xml"));
 
             // Web API 路由
             config.MapHttpAttributeRoutes();

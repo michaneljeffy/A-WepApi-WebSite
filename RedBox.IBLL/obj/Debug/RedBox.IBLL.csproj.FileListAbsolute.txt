@@ -8,4 +8,4 @@ D:\MVC Project\RedBox\RedBox.IBLL\obj\Debug\RedBox.IBLL.pdb
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\EntityFramework.dll
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\EntityFramework.xml
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
-D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\RedBox.Models.dll.config
+D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\RedBox.IBLL.dll.config

@@ -41,18 +41,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InterfaceBaseService.cs" />
-    <Compile Include="IServices\InterfaceAgentService.cs" />
-    <Compile Include="IServices\InterfaceUserService.cs" />
-    <Compile Include="IServices\IRedBoxInfoService.cs" />
-    <Compile Include="IServices\IRedBoxShowService.cs" />
+    <Compile Include="IServices\IUserServices\ICityService.cs" />
+    <Compile Include="IServices\IUserServices\InterfaceAgentService.cs" />
+    <Compile Include="IServices\IUserServices\InterfaceUserService.cs" />
+    <Compile Include="IServices\IOfficialAccountServices\IAccountMachineService.cs" />
+    <Compile Include="IServices\IOfficialAccountServices\IOfficialAccountService.cs" />
+    <Compile Include="IServices\IMachineServices\IRedBoxInfoService.cs" />
+    <Compile Include="IServices\IMachineServices\IRedBoxShowService.cs" />
+    <Compile Include="IServices\IShowsServices\IShowsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IServices\InterfaceRedBoxService.cs" />
+    <Compile Include="IServices\IMachineServices\InterfaceRedBoxService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RedBox.Models\RedBox.Models.csproj">
       <Project>{712db296-56da-4f79-84c1-29f5dae9d0f2}</Project>
       <Name>RedBox.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
