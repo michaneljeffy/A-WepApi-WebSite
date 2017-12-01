@@ -94,12 +94,33 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="form-group">
+						<div class="col-xs-12">
+							<div class="input-group">
+								<span>
+									<img src="" id="CheckCode" class=" form-control" />
+									<input type="text" id="mobilecode" name="mobilecode" class="form-control" placeholder="输入验证码">
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-xs-12">
+							<div class="input-group">
+								<span>
+									<input type="text" id="mobilecode" name="mobilecode" class="form-control" placeholder="短信验证码">
+									<input type="submit" id="GetMobileCode" class="btn btn-sm btn-info" value=" 获取短信验证码">
+								</span>
+							</div>
+						</div>
+					</div>
 					<div class="form-group form-actions">
 						<div class="col-xs-4 col-xs-offset-4 ">
 							<button type="button" id="Login" class="btn btn-sm btn-info"><span class="glyphicon glyphicon-off"></span> 登录</button>
 						</div>
 					</div>
-
 				</form>
 			</div>
 		</div>
@@ -145,6 +166,6 @@ Token:<div id="myToken"></div>
 
                 }
             });
-        });
+		});
     });
 </script>

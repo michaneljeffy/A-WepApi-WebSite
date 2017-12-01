@@ -23,3 +23,28 @@ D:\MVC Project\RedBox\RedBox.Models\bin\Debug\System.Web.Http.Cors.xml
 D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
 D:\MVC Project\RedBox\RedBox.Models\bin\Debug\zh-Hans\System.Web.Http.resources.dll
 D:\MVC Project\RedBox\RedBox.Models\obj\Debug\RedBox.Models.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\RedBox.Models.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\RedBox.Models.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\RedBox.Models.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\EntityFramework.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\MySql.Data.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\Newtonsoft.Json.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Net.Http.Formatting.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Web.Cors.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Web.Http.Cors.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Web.Http.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\EntityFramework.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\Newtonsoft.Json.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Net.Http.Formatting.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Web.Http.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\System.Web.Http.Cors.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\obj\Debug\RedBox.Models.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\obj\Debug\RedBox.Models.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Models\obj\Debug\RedBox.Models.pdb

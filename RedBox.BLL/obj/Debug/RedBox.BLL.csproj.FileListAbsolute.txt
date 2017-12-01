@@ -26,3 +26,35 @@ D:\MVC Project\RedBox\RedBox.BLL\bin\Debug\zxing.pdb
 D:\MVC Project\RedBox\RedBox.BLL\bin\Debug\zxing.xml
 D:\MVC Project\RedBox\RedBox.BLL\bin\Debug\zxing.presentation.pdb
 D:\MVC Project\RedBox\RedBox.BLL\bin\Debug\zxing.presentation.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.BLL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.BLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.BLL.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Newtonsoft.Json.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Qiniu.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.DLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IBLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IDAL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.Models.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.presentation.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\EntityFramework.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.DLL.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.DLL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IBLL.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IBLL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IDAL.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.IDAL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.Models.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\RedBox.Models.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Gma.QrCodeNet.Encoding.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\Newtonsoft.Json.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.presentation.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\zxing.presentation.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\bin\Debug\EntityFramework.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\obj\Debug\RedBox.BLL.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\obj\Debug\RedBox.BLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.BLL\obj\Debug\RedBox.BLL.pdb

@@ -9,3 +9,15 @@ D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\EntityFramework.dll
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\EntityFramework.xml
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\MVC Project\RedBox\RedBox.IBLL\bin\Debug\RedBox.IBLL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.IBLL.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.IBLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.IBLL.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.Models.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\EntityFramework.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.Models.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\RedBox.Models.dll.config
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\EntityFramework.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\obj\Debug\RedBox.IBLL.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\obj\Debug\RedBox.IBLL.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.IBLL\obj\Debug\RedBox.IBLL.pdb

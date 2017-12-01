@@ -9,3 +9,14 @@ D:\MVC Project\RedBox\RedBox.Common\bin\Debug\NLog.xml
 D:\MVC Project\RedBox\RedBox.Common\bin\Debug\RabbitMQ.Client.xml
 D:\MVC Project\RedBox\RedBox.Common\bin\Debug\StackExchange.Redis.xml
 D:\MVC Project\RedBox\RedBox.Common\obj\Debug\RedBox.Common.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\RedBox.Common.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\RedBox.Common.pdb
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\NLog.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\RabbitMQ.Client.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\StackExchange.Redis.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\NLog.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\RabbitMQ.Client.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\bin\Debug\StackExchange.Redis.xml
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\obj\Debug\RedBox.Common.csprojResolveAssemblyReference.cache
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\obj\Debug\RedBox.Common.dll
+D:\.NET FrameWork Studay\A-WepApi-WebSite\RedBox.Common\obj\Debug\RedBox.Common.pdb

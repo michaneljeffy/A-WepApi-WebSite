@@ -1,0 +1,12 @@
+.vs
+packages/
+RedBox.BLL/bin/
+RedBox.BLL/obj/
+RedBox.Common/bin/
+RedBox.DLL/bin/
+RedBox.DLL/obj/
+RedBox.IBLL/bin/
+RedBox.IDAL/bin/
+RedBox.Models/bin/
+RedBox.Web/bin/
+VUE-FrontEnd/bin/

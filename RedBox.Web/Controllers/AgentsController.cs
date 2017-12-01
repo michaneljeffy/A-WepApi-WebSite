@@ -9,13 +9,15 @@ using RedBox.Models.RedBox;
 using System.Web.Security;
 using RedBox.Web.Models;
 using System.Web;
+using RedBox.Web.Common;
+using System.Drawing;
 
 namespace RedBox.Web.Controllers
 {
     /// <summary>
     /// 
     /// </summary>
-    public class AgentsController : ApiController 
+    public class AgentsController : ApiController
     {
         InterfaceAgentService AgentServices;
 
@@ -43,7 +45,7 @@ namespace RedBox.Web.Controllers
         // POST api/<controller>
         public dynamic Post([FromUri]string username, [FromUri]string password)
         {
-             return AgentServices.Login(username, password);
+            return AgentServices.Login(username, password);
         }
 
         /// <summary>
@@ -93,7 +95,7 @@ namespace RedBox.Web.Controllers
 
         private bool ValidateUser(string strUser, string strPwd)
         {
-            channel  agent  = AgentServices.Login(strUser, strPwd);
+            channel agent = AgentServices.Login(strUser, strPwd);
             if (agent.name == strUser && agent.password == strPwd)
             {
                 return true;
@@ -102,6 +104,34 @@ namespace RedBox.Web.Controllers
             {
                 return false;
             }
+        }
+
+        /// <summary>
+        /// 获取图片验证码
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetImageCode()
+        {
+            string code = ImageCode.GenerateCheckCode();
+            var image = Image.FromStream(ImageCode.Production(code));
+
+            return new { Code = code, Image = image };
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="photoNumber">参数为输入的手机号码</param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetMobileCheckCode(string photoNumber)
+        {
+            var message = MessageCode.GenerateMessageCode(6);//生成6位数的手机验证码
+
+            var responseCode = MessageCode.SendMessageCode(photoNumber,message);
+
+            return new { PhoneNo = photoNumber ,MessageCode = message ,Code = responseCode  };
         }
     }
 }
